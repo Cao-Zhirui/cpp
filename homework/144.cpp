@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// 全局变量
 int map[9][9];
 int path[81][2];
 int step = 0;
@@ -11,7 +10,6 @@ bool found = false;
 int dx[4] = {-1, 0, 1, 0};
 int dy[4] = {0, 1, 0, -1};
 
-// DFS函数
 bool DFS(int x, int y) {
     // 将当前点加入路径
     path[step][0] = x;

@@ -22,7 +22,6 @@ int main() {
     char start, target;
     int n;
     
-    // 读取输入
     cin >> start >> target >> n;
     
     // 确定辅助柱
